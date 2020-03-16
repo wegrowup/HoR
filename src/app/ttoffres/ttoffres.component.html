@@ -1,0 +1,99 @@
+<div class="card">
+  <div class="card-header">
+Toutes Les Offres
+  </div>
+  <div class="card-body">
+<div class="panel panel-danger">
+<h4 class="panel-heading">Toutes Les Offres</h4>
+<div class="panel-body panel-light" style="background-color: #FFFFF5;">
+<p></p>
+
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Achats
+  </label>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Commercial, vente
+  </label>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Informatique, nouvelles technologies
+  </label>
+</div>
+
+</div>
+    </div>
+  </div>
+
+ <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+Tourisme, hôtellerie, restauration
+  </label>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+Production, maintenance, qualité
+  </label>
+</div>
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+Transport, logistique
+  </label>
+</div>
+
+</div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="card text-center">
+  <div class="card-header">
+    <p *ngFor="let c of comments">{{c.titre}}</p>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title" *ngFor="let c of comments">{{c.missions}} </h5>
+	<p class="card-text" *ngFor="let c of comments">{{c.profil}} </p>
+		<p class="card-text" *ngFor="let c of comments">{{c.inffos}} </p>
+    <a href="#" class="btn btn-primary">Postuler</a>
+  </div>
+  <div class="card-footer text-muted">
+		<p class="card-text" *ngFor="let c of comments"><span class="badge badge-dark">{{c.date}}</span></p>
+  </div>
+</div>
+
