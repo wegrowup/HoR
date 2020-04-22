@@ -10,6 +10,9 @@ export class TtoffresComponent implements OnInit {
 
 
 
+
+
+
   info:any
   comments=[];
   commentaire={date:null ,titre:"" ,missions:"" ,profil:"" ,inffos:""};

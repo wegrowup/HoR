@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ContactService } from 'src/services/contact.service';
 
 @Component({
   selector: 'app-menu',
@@ -8,27 +7,12 @@ import { ContactService } from 'src/services/contact.service';
 })
 export class MenuComponent implements OnInit {
 
-
-  info:any
-  comments=[];
-  commentaire={date:null ,titre:"" ,missions:"" ,profil:"" ,inffos:"" ,upim:""};
+  hamburger
 
 
-  constructor(private contactService:ContactService) { 
-    this.comments=this.contactService.getAllComments();
-        this.info=this.contactService.getInfo();
-
-
-  }
+  constructor() { }
 
   ngOnInit(): void {
-
-  }
-
-  onAddCommentaire(c){
-this.contactService.addComments(c);
-this.commentaire.titre="";   
-this.comments=this.contactService.getAllComments();
   }
 
 }

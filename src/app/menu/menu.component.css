@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  background: #483348;
+  height: 50px;
+  width: 100%;
+}
+
+      .nav-links {
+        display: flex;
+        list-style: armenian;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+      }
+          .nav-Linx {
+            margin-left: 0;
+            width: 10px;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+          }
+                  #iconpp {
+                    cursor: pointer;
+                    left: 10%;
+                    width: 50px;
+                    height: 50px;
+                  }
+                    #iconpp:hover {
+                      width: 60px;
+                      height: 60px;
+                    }
+.navLinx {
+  list-style-type: none;
+  list-style: none;
+  width: 0px;
+  height: 0%;
+  padding: 0;
+  margin: 0;
+}
+                  #iconmenu {
+                    width: 0px;
+                    height: 0px;
+                    padding: 0px;
+                    margin: 0px;
+                  }
+
+
+          .navLinks {
+            display: flex;
+            list-style: none;
+            width: 60%;
+            height: 100%;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 15%;
+          }
+
+
+            .navLinks li a {
+              padding: 5px;
+              border: 1px;
+              color: #FFFFFF;
+              font-size: 14px;
+              border-color: #483348;
+              border-right-style: inset;
+              text-decoration: wavy;
+              font-weight: bold;
+              text-align: center;
+              text-shadow: -1px -1px 1px inherit;
+              font-family: "Century Gothic","Hekvetica", sans-serif;
+            }
+
+                      .navLinks li a:hover {
+                          font-size: 18px;
+
+                      }
+
+                      .activeLinks {
+                        border-style:inset
+                           
+                      }
+
+
+@media screen and (max-width: 768px) {
+  #iconpp {
+    cursor: pointer;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  #iconmenu {
+    cursor: pointer;
+    width: 30px;
+    height: 35px;
+    border-color: #483348;
+    padding: 0px;
+    margin: 5px;
+    margin-right:20px;
+    border: 1px;
+    border-color: #483348;
+    border-right-style: inset;
+    border-left-style: outset;
+  }
+
+  .navLinx {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20%;
+  }
+
+  .nav-links li a {
+    color: white;
+    text-decoration: wavy;
+    font-size: 12px;
+    border-color: #483348;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+
+  nav {
+    position: fixed;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+
+  .navLinks {
+    position: fixed;
+    background: #48334b;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 70% 10%);
+    -webkit-clip-path: circle(100px at 70% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+
+  .nav-linksOpen {
+    clip-path: circle(1000px at 70% -10%);
+    -webkit-clip-path: circle(1000px at 70% -10%);
+    pointer-events: all;
+  }
+}
+

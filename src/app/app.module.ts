@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Input } from '@angular/core';
+import { NgModule, Input, Component } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { ContactService } from 'src/services/contact.service';
 import { TtoffresComponent } from './ttoffres/ttoffres.component';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { LeftcompComponent } from './leftcomp/leftcomp.component';
+import { RightcompComponent } from './rightcomp/rightcomp.component';
 
 const routes:Routes=[
   {path:'contact' ,component:ContactComponent},
@@ -18,6 +21,10 @@ const routes:Routes=[
   {path:'menu' ,component:MenuComponent},
   {path:'ttoffres' ,component:TtoffresComponent},
   {path:'register' ,component:RegisterComponent},
+  {path:'login', component: LoginComponent },
+  {path:'rightcomp', component: RightcompComponent },
+  {path:'leftcomp', component:  LeftcompComponent } ,
+
 
   {path:'' ,redirectTo:'/fbody', pathMatch: 'full'},
 ];
@@ -31,6 +38,9 @@ const routes:Routes=[
     FbodyComponent,
     TtoffresComponent,
     RegisterComponent,
+    LoginComponent,
+    LeftcompComponent,
+    RightcompComponent,
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes), AppRoutingModule, FormsModule,

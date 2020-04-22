@@ -1,0 +1,40 @@
+
+.leftMenu {
+  padding-top: 30px;
+  height: 50%;
+}
+#lefticon {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  text-shadow: -1px -1px 1px #180018;
+  font-family: "Century Gothic","Hekvetica", sans-serif;
+}
+
+.leftMenu ul {
+  list-style-type: none;
+  padding-bottom: 20px;
+  
+}
+
+.leftMenu li a {
+  color: #180018;
+  padding: 20px;
+  font-size: 14px;
+  text-decoration: wavy;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -1px -1px 1px #180018;
+  font-family: "Century Gothic","Hekvetica", sans-serif;
+}
+
+  .leftMenu li a:hover {
+    font-size: 18px;
+    margin: 25px;
+  }
+
+.activeLinks {
+  border-style: inset;
+  border: 1px;
+  border-color: #483348;
+}

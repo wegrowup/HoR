@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{8AD1D9B1-89FC-4293-B93A-ECA9348FF0B6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="dist/HoR/index.html">
+    <Files>
+      <File FileName="src/app/contact/contact.component.ts" Line="1" Column="1" />
+      <File FileName="src/app/contact/contact.component.html" />
+      <File FileName="src/services/contact.service.ts" Line="1" Column="1" />
+      <File FileName="dist/HoR/index.html" Line="5" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LibInHome" expanded="True">
+            <Node name="LibInHome" expanded="True">
+              <Node name="dist" expanded="True">
+                <Node name="HoR" expanded="True">
+                  <Node name="index.html" selected="True" />
+                </Node>
+              </Node>
+              <Node name="src" expanded="True">
+                <Node name="app" expanded="True">
+                  <Node name="contact" expanded="True" />
+                  <Node name="leftcomp" expanded="True" />
+                  <Node name="menu" expanded="True" />
+                  <Node name="register" expanded="True" />
+                  <Node name="ttoffres" expanded="True" />
+                </Node>
+                <Node name="services" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LibInHome PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

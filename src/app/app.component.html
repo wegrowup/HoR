@@ -1,105 +1,29 @@
 
 
-    <nav id="navtop" class="navbar navbar-light fixed-top" style="background-color: #48334b;">
-  <!-- Navbar content -->
 
-  <img id="iconpp" routerLink="/fbody"  src="assets/img/planeta3.png" alt="Logo" style=" width:100px;">
+<app-menu></app-menu>
 
-  <button routerLink="/register" type="button" class="btn btn-danger">Créer Votre CV</button>
 
-   <div class="dropdown">
-  <button routerLink="/ttoffres" class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Toutes les Offres
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="http://localhost:4200/register">Action</a>
-    <a class="dropdown-item" href="http://localhost:4200/register">Another action</a>
-    <a class="dropdown-item" href="http://localhost:4200/register">Something else here</a>
-  </div>
+<div id="rightcomp">
+    <app-rightcomp></app-rightcomp>
 </div>
 
-    <button routerLink="/menu" type="button" class="btn btn-outline-danger">Candidature Spontanée</button>
 
-     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" style="background: transparent;" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-    </form>
-
-</nav>
-
-
-
+<div id="leftcomp">
+    <app-leftcomp></app-leftcomp>
+</div>
 
 
 <body>
 
 
-        <router-outlet>  </router-outlet>
+
+
+    <router-outlet>  </router-outlet>
 
 
 
 </body>
-
-
-
-
-<div class="sidenav" id="leftnav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
-
-
-
-<div class="sidenav" id="rightnav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
- <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
-    Action
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Dompteurs</a>
-    <a class="dropdown-item" href="#">Zoos</a>
-    <a class="dropdown-item" href="#">Chasseurs</a>
-  </div>
-  <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
-    Action
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Dompteurs</a>
-    <a class="dropdown-item" href="#">Zoos</a>
-    <a class="dropdown-item" href="#">Chasseurs</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Autres témoignages</a>
-  </div>
-</div>
-
-</div>
-
-
-
-
-
 
 
 

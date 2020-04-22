@@ -1,0 +1,6 @@
+/Users/mac/Projects/LibInHome/HoR/obj/Debug/netcoreapp3.1/LibInHome.csprojAssemblyReference.cache
+/Users/mac/Projects/LibInHome/HoR/obj/Debug/netcoreapp3.1/LibInHome.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/LibInHome/HoR/obj/Debug/netcoreapp3.1/LibInHome.MvcApplicationPartsAssemblyInfo.cs
+/Users/mac/Projects/LibInHome/HoR/obj/Debug/netcoreapp3.1/LibInHome.MvcApplicationPartsAssemblyInfo.cache
+/Users/mac/Projects/LibInHome/HoR/obj/Debug/netcoreapp3.1/LibInHome.AssemblyInfoInputs.cache
+/Users/mac/Projects/LibInHome/HoR/obj/Debug/netcoreapp3.1/LibInHome.AssemblyInfo.cs
