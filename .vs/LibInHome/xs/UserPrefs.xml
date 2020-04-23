@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{8AD1D9B1-89FC-4293-B93A-ECA9348FF0B6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="dist/HoR/index.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/app/menu/menu.component.css">
     <Files>
-      <File FileName="src/app/contact/contact.component.ts" Line="1" Column="1" />
-      <File FileName="src/app/contact/contact.component.html" />
-      <File FileName="src/services/contact.service.ts" Line="1" Column="1" />
-      <File FileName="dist/HoR/index.html" Line="5" Column="13" />
+      <File FileName="src/app/menu/menu.component.css" Line="180" Column="31" />
+      <File FileName="src/app/menu/menu.component.html" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,19 +10,20 @@
           <Node name="LibInHome" expanded="True">
             <Node name="LibInHome" expanded="True">
               <Node name="dist" expanded="True">
-                <Node name="HoR" expanded="True">
-                  <Node name="index.html" selected="True" />
-                </Node>
+                <Node name="HoR" expanded="True" />
               </Node>
               <Node name="src" expanded="True">
                 <Node name="app" expanded="True">
                   <Node name="contact" expanded="True" />
                   <Node name="leftcomp" expanded="True" />
-                  <Node name="menu" expanded="True" />
-                  <Node name="register" expanded="True" />
-                  <Node name="ttoffres" expanded="True" />
+                  <Node name="login" expanded="True" />
+                  <Node name="menu" expanded="True">
+                    <Node name="menu.component.css" selected="True" />
+                  </Node>
                 </Node>
-                <Node name="services" expanded="True" />
+                <Node name="assets" expanded="True">
+                  <Node name="img" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

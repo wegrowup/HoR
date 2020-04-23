@@ -12,6 +12,7 @@ nav {
 }
 
       .nav-links {
+          margin-left: 0px;
         display: flex;
         list-style: armenian;
         width: 100%;
@@ -20,55 +21,58 @@ nav {
         align-items: center;
         margin-left: auto;
       }
-          .nav-Linx {
-            margin-left: 0;
-            width: 10px;
+          .nav-linx {
+            display: flex;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 50%;
             height: 100%;
-            padding: 0;
-            margin: 0;
-          }
-                  #iconpp {
-                    cursor: pointer;
-                    left: 10%;
-                    width: 50px;
-                    height: 50px;
-                  }
+            padding: 5px;
+                              }
+                    #iconpp {
+                      margin: auto;
+                      cursor: pointer;
+                      margin-left: 20px;
+                      width: 50px;
+                      height: 50px;
+                    }                     
                     #iconpp:hover {
                       width: 60px;
                       height: 60px;
                     }
-.navLinx {
-  list-style-type: none;
-  list-style: none;
-  width: 0px;
-  height: 0%;
-  padding: 0;
-  margin: 0;
+
+                    
+                    .search-text {
+                      margin-top: 5px;
+                      width: 90%;
+                      height: 30px;
+                      margin-right: 20%;
+                      margin-left: 60px
+                    }
+.searchbtn {
+  float: right;
+  width: 40px;
+  height: 40px;
+
 }
-                  #iconmenu {
-                    width: 0px;
-                    height: 0px;
-                    padding: 0px;
-                    margin: 0px;
-                  }
 
 
-          .navLinks {
-            display: flex;
-            list-style: none;
-            width: 60%;
-            height: 100%;
-            justify-content: space-around;
-            align-items: center;
-            margin-left: 15%;
-          }
+.navLinks {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0px;
+}
 
 
             .navLinks li a {
               padding: 5px;
               border: 1px;
               color: #FFFFFF;
-              font-size: 14px;
+              font-size: 11px;
               border-color: #483348;
               border-right-style: inset;
               text-decoration: wavy;
@@ -79,7 +83,7 @@ nav {
             }
 
                       .navLinks li a:hover {
-                          font-size: 18px;
+                          font-size: 13px;
 
                       }
 
@@ -90,36 +94,46 @@ nav {
 
 
 @media screen and (max-width: 768px) {
+  .nav-linx {
+    display: flex;
+    margin-left: 0px;
+    width: 70%;
+    height: 100%;
+    padding: 5px;
+  }
+
+
+  .search-text {
+    outline: none;
+    float: left;
+    background: none;
+    border: none;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+  }
+
+  .nav-linx:hover > .search-text {
+    outline: none;
+    float: left;
+    background: none;
+    border: none;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+  }
+
   #iconpp {
+    margin-top: auto;
     cursor: pointer;
-    left: 5%;
+    margin-left: 20%;
     width: 50px;
     height: 50px;
   }
-
-  #iconmenu {
-    cursor: pointer;
-    width: 30px;
-    height: 35px;
-    border-color: #483348;
-    padding: 0px;
-    margin: 5px;
-    margin-right:20px;
-    border: 1px;
-    border-color: #483348;
-    border-right-style: inset;
-    border-left-style: outset;
-  }
-
-  .navLinx {
-    display: flex;
-    list-style: none;
-    width: 50%;
-    height: 80%;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 20%;
-  }
+    #iconpp:hover {
+      width: 60px;
+      height: 60px;
+    }
 
   .nav-links li a {
     color: white;
@@ -163,7 +177,7 @@ nav {
     pointer-events: none;
   }
 
-  .nav-linksOpen {
+  .hamburger:hover > .navLinks {
     clip-path: circle(1000px at 70% -10%);
     -webkit-clip-path: circle(1000px at 70% -10%);
     pointer-events: all;
