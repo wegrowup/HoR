@@ -11,7 +11,7 @@ nav {
   width: 100%;
 }
 
-      .nav-links {
+      .navlink {
           margin-left: 0px;
         display: flex;
         list-style: armenian;
@@ -27,33 +27,55 @@ nav {
             margin-right: 0px;
             width: 50%;
             height: 100%;
-            padding: 5px;
+            padding: 0px;
                               }
                     #iconpp {
                       margin: auto;
                       cursor: pointer;
-                      margin-left: 20px;
-                      width: 50px;
-                      height: 50px;
+                      margin-left: 40px;
+                      width: 45px;
+                      height: 45px;
                     }                     
                     #iconpp:hover {
-                      width: 60px;
-                      height: 60px;
+                      width: 55px;
+                      height: 50px;
                     }
+.search-box {
+  padding-left: 40px;
+  background-color: #FFFFFF;
+  border-radius: 20%;
+  margin-left: 10px;
+  margin-right: 0%;
+  margin-top: 10px;
+  width: 80%;
+  height: 30px;
+}
 
-                    
-                    .search-text {
-                      margin-top: 5px;
-                      width: 90%;
-                      height: 30px;
-                      margin-right: 20%;
-                      margin-left: 60px
-                    }
-.searchbtn {
+.search-text {
+  height: 0px;
+  width: 0px;
+  border-radius: 50%;
+  background-color: none;
+}
+
+.search-box:hover > .search-text {
+  height: 95%;
+  width: 80%;
+  border-radius: 20%;
+  background-color: none;
+  border: none;
+}
+.search-btn {
+   margin:0px;
+  padding:0px;
+  margin-top: 5px;
   float: right;
   width: 40px;
   height: 40px;
-
+  background-color: none;
+  color: #483348;
+  background-color: none;
+  border-radius: 25%;
 }
 
 
@@ -96,46 +118,90 @@ nav {
 @media screen and (max-width: 768px) {
   .nav-linx {
     display: flex;
+    margin-right:100px;
     margin-left: 0px;
-    width: 70%;
+    width: 80%;
     height: 100%;
-    padding: 5px;
+    padding: 0px;
   }
 
+  .search-box {
+    padding: 0px;
+    background-color: #483348;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+.search-box:hover {
+  padding-left: 0px;
+  background-color: #FFFFFF;
+  border-radius: 0%;
+  margin-left: 10px;
+  margin-right: 0%;
+  margin-top: 10px;
+  width: 80%;
+  height: 30px;
+}
 
   .search-text {
-    outline: none;
-    float: left;
-    background: none;
-    border: none;
-    transition: 0.4s;
-    line-height: 40px;
+    margin-left: 0px;
+    height: 0px;
     width: 0px;
+    border-radius: 50%;
+    background-color: none;
   }
 
-  .nav-linx:hover > .search-text {
-    outline: none;
-    float: left;
-    background: none;
-    border: none;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 240px;
+.search-box:hover > .search-text {
+    padding-left:60px;
+  margin-left:0px;
+  height: 95%;
+  width: 80%;
+  border-radius: 50%;
+  background-color: none;
+  border: none;
+  border-color:#FFFFFF;
+}
+
+  .search-btn {
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: none;
+    border-radius: 50%;
   }
+
+  .search-box:hover > .search-btn {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    color: #483348;
+    background-color: none;
+    border-radius: 25%;
+  }
+
 
   #iconpp {
-    margin-top: auto;
     cursor: pointer;
-    margin-left: 20%;
-    width: 50px;
-    height: 50px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
   }
+
     #iconpp:hover {
-      width: 60px;
-      height: 60px;
+      width: 55px;
+      height: 50px;
     }
 
-  .nav-links li a {
+  .navlink li a {
     color: white;
     text-decoration: wavy;
     font-size: 12px;
@@ -168,7 +234,7 @@ nav {
   .navLinks {
     position: fixed;
     background: #48334b;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     flex-direction: column;
     clip-path: circle(100px at 70% 10%);

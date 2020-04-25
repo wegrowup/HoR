@@ -12,4 +12,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgfont-awesome Condition=" '$(Pkgfont-awesome)' == '' ">/Users/mac/.nuget/packages/font-awesome/4.7.0</Pkgfont-awesome>
+  </PropertyGroup>
 </Project>

@@ -1,40 +1,58 @@
 
 .leftMenu {
-  padding-top: 30px;
+  padding-top: 10px;
   height: 50%;
 }
-#lefticon {
-  cursor: pointer;
-  width: 25px;
-  height: 25px;
+
+.cardheader {
+  color: #483348;
+  padding: 10px;
+  margin: 10px;
+  font-size: 22px;
+  text-decoration: wavy;
+  font-weight: bold;
   text-shadow: -1px -1px 1px #180018;
   font-family: "Century Gothic","Hekvetica", sans-serif;
+  border-style: outset;
+  border-color: #F1EAEE;
 }
 
 .leftMenu ul {
   list-style-type: none;
-  padding-bottom: 20px;
-  
 }
 
+  .leftMenu li {
+    padding: 5px;
+  }
+
+  #lefticon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-shadow: -1px -1px 1px #180018;
+    font-family: "Century Gothic","Hekvetica", sans-serif;
+  }
+
+
+
 .leftMenu li a {
-  color: #180018;
+  color: #483348;
   padding: 20px;
   font-size: 14px;
   text-decoration: wavy;
   font-weight: bold;
   text-align: center;
-  text-shadow: -1px -1px 1px #180018;
+  text-shadow: -1px -1px 1px #483348;
   font-family: "Century Gothic","Hekvetica", sans-serif;
 }
 
-  .leftMenu li a:hover {
-    font-size: 18px;
-    margin: 25px;
-  }
-
-.activeLinks {
-  border-style: inset;
-  border: 1px;
-  border-color: #483348;
-}
+                        .leftMenu li a:hover {
+                          font-size: 18px;
+                          margin: 25px;
+                        }
+                      
+                      .activeLinks {
+                        border-style: inset;
+                        border: 1px;
+                        border-color: #483348;
+                      }
