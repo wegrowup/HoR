@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{8AD1D9B1-89FC-4293-B93A-ECA9348FF0B6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/app/login/login.component.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="firebase-debug.log">
     <Files>
-      <File FileName="src/app/menu/menu.component.css" Line="41" Column="33" />
-      <File FileName="src/app/menu/menu.component.html" Line="1" Column="1" />
-      <File FileName="src/app/leftcomp/leftcomp.component.html" Line="1" Column="1" />
+      <File FileName="src/app/leftcomp/leftcomp.component.html" Line="15" Column="16" />
       <File FileName="src/app/leftcomp/leftcomp.component.css" Line="8" Column="17" />
-      <File FileName="src/app/login/login.component.html" Line="31" Column="15" />
-      <File FileName="src/app/login/login.component.css" Line="22" Column="19" />
-      <File FileName="src/app/app.component.css" Line="7" Column="15" />
+      <File FileName="src/app/login/login.component.html" Line="7" Column="1" />
+      <File FileName="src/app/login/login.component.css" Line="27" Column="4" />
+      <File FileName="src/app/entreprise-sing-up/entreprise-sing-up.component.css" Line="17" Column="2" />
+      <File FileName="src/app/entreprise-sing-up/entreprise-sing-up.component.html" Line="86" Column="15" />
+      <File FileName=".firebaserc" Line="3" Column="17" />
+      <File FileName="firebase-debug.log" Line="33" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,21 +18,17 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="dist" expanded="True">
-                <Node name="HoR" expanded="True" />
-              </Node>
               <Node name="src" expanded="True">
                 <Node name="app" expanded="True">
                   <Node name="contact" expanded="True" />
                   <Node name="entreprise-sing-up" expanded="True" />
                   <Node name="leftcomp" expanded="True" />
-                  <Node name="login" expanded="True">
-                    <Node name="login.component.css" selected="True" />
-                  </Node>
-                  <Node name="register" expanded="True" />
+                  <Node name="login" expanded="True" />
+                  <Node name="menu" expanded="True" />
                 </Node>
                 <Node name="assets" expanded="True" />
               </Node>
+              <Node name="firebase-debug.log" selected="True" />
             </Node>
           </Node>
         </State>

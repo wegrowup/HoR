@@ -1,0 +1,110 @@
+[debug] [2020-04-26T22:35:32.278Z] ----------------------------------------------------------------------
+[debug] [2020-04-26T22:35:32.280Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-04-26T22:35:32.281Z] CLI Version:   8.0.1
+[debug] [2020-04-26T22:35:32.281Z] Platform:      darwin
+[debug] [2020-04-26T22:35:32.281Z] Node Version:  v13.10.1
+[debug] [2020-04-26T22:35:32.282Z] Time:          Sun Apr 26 2020 22:35:32 GMT+0000 (GMT)
+[debug] [2020-04-26T22:35:32.282Z] ----------------------------------------------------------------------
+[debug] [2020-04-26T22:35:32.282Z] 
+[debug] [2020-04-26T22:35:32.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-26T22:35:32.292Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mac/Projects/LibInHome/HoR
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pinkplan.
+[debug] [2020-04-26T22:35:36.541Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pinkplan  
+ 
+[debug] [2020-04-26T22:35:37.185Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Sun, 26 Apr 2020 22:35:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-26T22:35:37.186Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-04-26T22:35:37.187Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-04-26T22:35:37.555Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:40:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:316:20)
+    at Request.EventEmitter.emit (domain.js:485:12)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:316:20)
+    at Request.EventEmitter.emit (domain.js:485:12)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:422:28)
+    at IncomingMessage.emit (events.js:328:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:485:12)
+    at endReadableNT (_stream_readable.js:1201:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project pinkplan. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-04-26T22:36:01.377Z] ----------------------------------------------------------------------
+[debug] [2020-04-26T22:36:01.379Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-04-26T22:36:01.380Z] CLI Version:   8.0.1
+[debug] [2020-04-26T22:36:01.380Z] Platform:      darwin
+[debug] [2020-04-26T22:36:01.380Z] Node Version:  v13.10.1
+[debug] [2020-04-26T22:36:01.381Z] Time:          Sun Apr 26 2020 22:36:01 GMT+0000 (GMT)
+[debug] [2020-04-26T22:36:01.381Z] ----------------------------------------------------------------------
+[debug] [2020-04-26T22:36:01.381Z] 
+[debug] [2020-04-26T22:36:01.391Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-26T22:36:01.392Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mac/Projects/LibInHome/HoR
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using pinkplan.
+[debug] [2020-04-26T22:36:31.031Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pinkplan  
+ 
+[debug] [2020-04-26T22:36:34.074Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Sun, 26 Apr 2020 22:36:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-26T22:36:34.075Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-04-26T22:36:34.077Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-04-26T22:36:35.639Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:40:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:316:20)
+    at Request.EventEmitter.emit (domain.js:485:12)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:316:20)
+    at Request.EventEmitter.emit (domain.js:485:12)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:422:28)
+    at IncomingMessage.emit (events.js:328:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:485:12)
+    at endReadableNT (_stream_readable.js:1201:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project pinkplan. Please make sure the project exists and your account has permission to access it.
