@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { EntrepriseService } from '../services/entreprise.service';
 import { Entreprise } from '../model/entreprise.model';
+import { AuthenticationService } from '../services/authentication.service';
 
 @Component({
   selector: 'app-entreprise-sing-up',
@@ -11,13 +12,15 @@ import { Entreprise } from '../model/entreprise.model';
 export class EntrepriseSingUpComponent implements OnInit {
   entrepriseForm: FormGroup;
 
-  constructor(private entrepriseService: EntrepriseService) { }
+  constructor(private entrepriseService: EntrepriseService, private auth: AuthenticationService) { }
 
   ngOnInit(): void {
     this.initForm();
   }
 
   onSubmit() {
+    this.auth.SignUp(this.entrepriseForm.value.email, this.entrepriseForm.value.password)
+      .subscribe(response => { console.log(response)});
     this.addEntreprise();
   }
   addEntreprise() {
@@ -38,7 +41,8 @@ export class EntrepriseSingUpComponent implements OnInit {
       activity: new FormControl(),
       adresse: new FormControl(),
       websiteUrl: new FormControl(),
-      description: new FormControl()
+      description: new FormControl(),
+      password: new FormControl()
     })
 
   }

@@ -1,13 +1,8 @@
 {
-
 "rulesDirectory": [
-"nod_modules/codelyzer"
-
 ],
 "rules":{
 
-	
+
 }
-
-
 }
